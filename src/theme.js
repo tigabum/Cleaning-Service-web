@@ -1,0 +1,48 @@
+import { createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+    colors: {
+        lightGreen: 'rgba(70, 164, 128, 0.32)',
+        lightCyan: 'rgba(37, 195, 205, 0.08)',
+        lightBlue: 'rgba(37, 134, 205, 0.08)',
+        powderyGreen: 'rgba(70, 164, 128, 0.08)',
+        lightGreenStatus: 'rgba(70, 164, 128, 0.08)',
+        lightBlueBorder: 'rgba(0, 146, 192, 0.16)',
+        lightPrimaryBlue: 'rgba(0, 146, 192, 0.08)',
+        lightOrange: 'rgba(217, 119, 52, 0.08)',
+        lightIndigo: 'rgba(84, 95, 198, 0.08)',
+        lightPurple: 'rgba(212, 33, 228, 0.32)',
+        lightPurpleBackground: 'rgba(212, 33, 228, 0.08)',
+        lightOrangeBorder: 'rgba(217, 119, 52, 0.32)',
+        lightCyanBorder: 'rgba(33, 228, 228, 0.32)',
+        lightCyanBorderPreceptor: 'rgba(37, 195, 205, 0.16)',
+        lightYellowBorder: 'rgba(228, 185, 33, 0.32)',
+        lightRed: 'rgba(217, 52, 52, 0.08)',
+        lightRedStatus: 'rgba(246, 68, 68, 0.08)',
+        borderTypePractice: 'rgba(0, 119, 156, 0.16)',
+        cyan: '#12AAAA',
+        red: '#E23333',
+        blue: '#1996DC',
+        indigo: '#03009C',
+        purple: '#9C0083',
+        orange: '#FF6200',
+        violet: '#7763F4',
+        lightViolet: 'rgba(94, 70, 164, 0.08)',
+        yellow: '#FFA800',
+        loginButton: '#18a374',
+        orangeBadge: '#FFB800',
+        blueLink: '#02bbd1',
+        lightGreenHover: 'rgba(29, 186, 127, 1)',
+        lightgrey: 'rgba(147, 170, 170, 1)',
+      },
+      backgrounds: {
+        backgroundChat: 'rgba(245, 252, 253, 0.96)',
+        backgroundChat2: 'rgba(235, 246, 250, 0.96)',
+        backgroundFilters: '#F5FCFD',
+        backgroundBanner: '#FBF1EA',
+        backgroundSelectedDate: 'rgba(70, 164, 128, 1)',
+        backgroundRangeSelectedDate: 'rgba(0, 116, 72, 1)',
+      },
+})
+
+export default theme;
